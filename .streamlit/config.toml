@@ -1,0 +1,15 @@
+[theme]
+# For Interactive elements
+primaryColor = "#00ADB5"
+
+# For main content area
+backgroundColor = "#222831"
+
+# For sidebar and most interactive widgets
+secondaryBackgroundColor = "#8EAC50"
+
+# For almost all text
+textColor = "#EEEEEE"
+
+# Default
+font = "sans serif"
