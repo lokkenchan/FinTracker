@@ -43,21 +43,21 @@ if authentication_status:
         # -----------SETTINGS---------
         incomes = ["Salary","Freelancing","Interest/Dividends","Tax Refunds","Gifts/Bonuses","Other Income"]
 
-        # By line: 1) Housing, 2) Food, 3) Transportation, 4) Insurance,
-                # 5) Clothing, 6) Health care, 7) Personal, 8) Entertainment,
-                # 9) Gifts and Contributions, 10) Family, 11) Credit Obligations, 12) Educational
-        expenses = ["Rent/Mortgage","Taxes(if not mortgage)", "Electricity", "Gas/Heating", "Water and Sewer", "Telephone/Online Services", "Garbage/Pest Control", "Maintenance",
-                    "Groceries","Lunches","Snacks and Sodas","School Lunches",
-                    "Gasoline","Repairs,Tires,Lube", "Bus/Metro/Tolls/Carpool","License Tags/Taxes",
-                    "Automobile","Home Owners/Renters","Medical", "Life and Disability",
-                    "Apparel/Shoes","Dry Cleaning/Laundry",
-                    "Physicians and Dentist","Medications/Prescriptions",
-                    "Toiletries",
-                    "Cable","Videos/Movies/Plays/Concerts","Vacation","Sports and Hobby Costs","Newspapers/Books/Magazines","Dining Out/Beverages",
-                    "Charities","Birthdays/Holidays","Special Occasions",
-                    "Day Care/Camp","Allowance","Music/Dance Lessons","Tutoring",
-                    "2nd Mortgage/Home Equity","Automobile Loans/Leases","Secured/Unsecured Loans","Credit Card Payments",
-                    "Tuition/Books/Supplies"]
+        # Fixed and Variable Expenses
+            # Home, food, self care, utilities, transportation, insurance, healthcare
+            # food (out), recreation, car, healthcare, taxes
+        expenses = ["Rent",
+                    "Groceries",
+                    "Laundry", "Toiletries",
+                    "Electricity", "Gas/Heating", "Water/Sewer","Trash/Pest Control","Internet/Telephone","Maintenance",
+                    "Gasoline","Public Transit (Bus/Metro/Train/Carpool)","Regular Car Maintenance", "Parking Fees","Tolls", "Car Warranty","Car Registration/DMV fees",
+                    "Health Insurance","Dental Insurance","Vision Insurance","Rental Insurance","Car Insurance",
+                    "Out-of-Pocket","Co-Pays","Urgent Care","Specialty Care","Prescriptions",
+                    "Breakfast (Out)","Lunch (Out)","Dinner(Out)","Snacks and Drinks (Out)",
+                    "Travel/Vacation","Streaming/Subscriptions","Hobbies","Shopping (Shoes/Apparel)","Gifts for Others/Birthdays/Holidays","Newspapers/Books/Magazines","Charities",
+                    "Variable Car Repairs",
+                    "Variable Medical Bills",
+                    "Taxes"]
         currency = "USD"
 
         # --------------------------
